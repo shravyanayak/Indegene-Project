@@ -28,20 +28,36 @@ body {
   .topnav {
     overflow: hidden;
     background-color: white;
-    /* position: relative; */
+    position: relative; 
+    padding-left: 60px
   }
   
-  .topnav #myLinks {
+  .myLinks {
     display: none;
   }
-  
+
+  .myLinks div{
+    height:25px;
+    padding : 15px 80px;
+    background-color:white;
+    font-size: 14px;
+    color:black;
+    font-weight:bold
+  }
+
+  .myLinks a{
+    text-decoration: none;
+  }
+
+  .myLinks a:hover {
+    color: #b99d81;
+  }
+
   .topnav a {
-      float : left;
-      color: #f2f2f2;
-      text-align: center;
+      color: white;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      display: block;
   }
   
   .topnav a.icon {
@@ -147,7 +163,7 @@ body {
   color: white;
 }
 
-.section-three{
+.section-four{
     z-index: 1;
     width: 100%!important;
     position: relative;
@@ -185,4 +201,34 @@ body {
   background-color :rgba(180, 72, 72, 0.096);
   padding:5%; 
   text-align:center
+}
+
+/*last*/
+
+.site-legal {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  line-height: 1.4;
+  color:white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.legal-link {
+  display: inline-block;
+  margin-right: 2.2em;
+  position: relative;
+}
+
+.company-icons{
+  margin-top: 50px;
+  padding: 20px !important;
+  width: 30px !important;
+  height: 27px !important;
+  border-radius: 50% !important;
+  background-color:#f09f9f ; 
+  border-radius: 50%; 
+  text-align: center;
 }
