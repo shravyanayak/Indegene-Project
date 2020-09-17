@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .mobile-container {
+  .screen-container {
     margin: auto;
     /* color: white; */
     border-radius: 10px;
@@ -11,7 +11,7 @@ body {
 
   }
 
-  .for-imagecover{
+  .section-two{
     z-index: 1;
     width: 100%!important;
     position: relative;
@@ -32,11 +32,11 @@ body {
     padding-left: 60px
   }
   
-  .myLinks {
+  .myTabs {
     display: none;
   }
 
-  .myLinks div{
+  .myTabs div{
     height:25px;
     padding : 15px 80px;
     background-color:white;
@@ -45,11 +45,11 @@ body {
     font-weight:bold
   }
 
-  .myLinks a{
+  .myTabs a{
     text-decoration: none;
   }
 
-  .myLinks a:hover {
+  .myTabs a:hover {
     color: #b99d81;
   }
 
@@ -79,7 +79,7 @@ body {
     color: white;
   }
 
-  .topDiv {
+  .section-one {
     background-color: #DCDCDC;
     position: relative;
     height : 500px;
@@ -181,7 +181,7 @@ body {
 .left-div,
 .right-div,
 .mid-div{
-  width:200px;
+  width:15%;
   height :100px;
   text-align: center;
 }
@@ -192,7 +192,8 @@ body {
 }
 
 .main-container{
-  display:flex
+  display:flex;
+  justify-content: space-evenly;
 }
 
 .date-container{
